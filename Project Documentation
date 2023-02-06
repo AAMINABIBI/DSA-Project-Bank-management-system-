@@ -1,0 +1,121 @@
+         PROJECT: ATM Management System
+         
+Introduction:
+
+This is ATM management System. The user information is in AVL like: Acc_num, Name,CNIC, gender,type,pin,. So there are basically three menu :
+•	ADMIN panel
+•	STAFF panel
+•	ATM service
+
+ADMIN PANEL:
+
+Admin is one who can create accounts,delete accounts and change info of user.Admin Panel has following options further :
+1.	Create Account.
+2.	Delete Account.
+3.	Search Account.
+4.	Show list of all accounts.
+5.	Edit information (Edit info of any user).
+6.	To main menu. 
+
+
+Details:
+
+1.	Create Account :
+                              Enter customer’s full name , CNIC , gender , type of acc,pin and minimum balance. Minimum balance is 500. The account number is generated automatically. like in video it generated 32002.\
+2.	Delete Account :
+                              To delete  acc simply enter the acc number it will delete it from AVL
+3.	Search Account:
+                              Simply enter user account number it will show user information like :  Acc_num, Name, CNIC, gender,type,pin,balance.
+4.	Show list of all Accounts :
+                              Show list of all account with info like : Acc_num, Name, CNIC, gender,type,pin,balance.
+5.	Edit info :
+                  To edit info first enter acc number for which you want to change info and then  Re-Enter all user  info from scratch. like : Acc_num, Name, CNIC, gender,type,pin…..
+6.	Main menu:
+                  switch to main menu.
+                  
+STAFF PANEL:
+
+Staff panel can only check account info, deposit cash, withdraw cash and check logs of a user. Staff panel has further these option:     
+1.	Check account info.
+2.	deposit cash.
+3.	with_draw cash.
+4.	To main menu. 
+
+
+Details:
+
+1.	Check Acc info:
+                             Simply enter user account number it will show user information like :  Acc_num, Name, CNIC, gender,type,balance.
+2.	Deposit Cash:
+                         In order to deposit cash in account enter user acc_num and pin then enter the amount to deposit in account.
+3.	With Draw cash:
+                                In order to with draw cash from account enter user acc_num and pin then enter amount to with draw. If the amount is greater the the amount with draw it display message : “Insufficient balance”. 
+4.	Main menu:
+                  switch to main menu.                            
+       
+ 
+ATM SERVICE:
+
+ATM is use to withdraw cash. It has only two options:
+1.	With Draw cash.
+2.	Main menu.
+
+Details:
+
+1.	With Draw cash : 
+                                In order to with draw cash from account enter user acc_num and pin then enter amount to with draw. If the amount is greater the the amount with draw it display message : “Insufficient balance”. 
+2.	Main menu:
+                  switch to main menu.  
+
+
+Methods:
+
+We are using AVL data Structure which consist of:
+1.	Menu()
+2.	Height()
+3.	Left_rotation
+4.	Right_rotation
+5.	Right_left_rotation
+6.	Left_right rotation
+7.	Min()
+8.	Balance
+9.	Insertion
+10.	Deletion()
+11.	FindMax()
+12.	Search()
+13.	PrintData()
+14.	Print_for_admin()
+15.	Deosit()
+16.	With_draw()
+17.	Change_info()
+18.	Check_acc_pin()
+19.	Create_acc()
+20.	Admin_panel()
+21.	Saff_panel()
+22.	ATM panel();
+23.	Main();
+
+Problem statement:
+
+•	The ATM management system needs to be improved in order to handle a large number of transactions efficiently and securely.
+•	 An AVL tree needs to be implemented to manage the large number of transactions, as it is a self-balancing binary search tree that allows for fast retrieval of data.
+•	 The AVL tree should be designed to store and retrieve data related to accounts and transactions in order to provide a secure, efficient, and user-friendly ATM management system.
+
+Data structures:
+
+●	 AVL data structure 
+
+Goals /objectives:
+
+ Some goals of ATM management system are:
+•	To maintain information of credit card holder
+•	Keep every information of credit card holder confidential
+•	Keep check on unauthorized access.
+
+Conclusion:
+
+Accounts of account holders will be created successfully and also the withdrawal of money will be done safely and the account balance will be updated.
+
+
+   
+
